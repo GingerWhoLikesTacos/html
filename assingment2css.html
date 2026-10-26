@@ -10,7 +10,7 @@
     button{ background-color: crimson; color:black}
     .otherHeader{color:rgb(119, 255, 0); font-family: 'Haettenschweiler'; font-size: xx-small;}
     #something{font-size: x-large;font-style: italic;font-style:oblique; color:salmon;}
-    .video{border-radius: 45%; border-color: limegreen;}
+    .image{border-radius: 45%; border-color: limegreen; padding: 34px; margin: 23px}
     </style>
 </head>
 <body>
@@ -26,13 +26,15 @@
     <button onclick="somethingFun()" style="padding: 32px; margin: 25 px background: #0284c7; color: white; border: none; border-radius: 4px; cursor: pointer;"> This is a button that does something special and you should click on it</button>
     <script>
   function somethingFun() {
-    alert("If you click OK, you like dipping pickles in hot sauce and the Fun-Dip powder at the same time. You weirdo, why would you ever even do that? ");
+    alert("If you click OK, you like dipping pickles in hot sauce the Fun-Dip powder and peanut butter at the same time. You weirdo, why would you ever even do that? ");
   }
 </script>
-<iframe> <div class="video">
-
-    <allowfullscreen>src="https://www.youtube.com/watch?v=Ls1qFLUq_9w"</allowfullscreen>
-    </div>
-</iframe>
+<video width="320" height="240" controls>
+  <source src="https://www.youtube.com/watch?v=Ls1qFLUq_9w" type="video/mp4">
+  
+</video>
+<div class="image">
+<img src="photo.jpg"; width="425"; height="299">
+</div>
 </body>
 </html> 

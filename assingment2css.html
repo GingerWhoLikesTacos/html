@@ -5,12 +5,15 @@
     <title>assignment2</title>
 
     <style> 
-    .header{ font-family:'Verdana'; color:rgba(0, 204, 255, 0.567))}
+    /*this makes any header have a specific color and font*/.header{ font-family:'Verdana'; color:rgba(0, 204, 255, 0.567))}
     p{ color:orchid; font-family: 'Helvetica'; font-size: larger;}
     button{ background-color: crimson; color:black}
     .otherHeader{color:rgb(119, 255, 0); font-family: 'Haettenschweiler'; font-size: xx-small;}
     #something{font-size: x-large;font-style: italic;font-style:oblique; color:salmon;}
-    .image{border-radius: 45%; border-color: limegreen; padding: 34px; margin: 23px}
+    #image{border-radius: 100px; border-color: limegreen; padding: 34px; margin: 23px}
+    img{
+        border-radius: 100px;
+    }
     </style>
 </head>
 <body>
@@ -34,7 +37,7 @@
   
 </video>
 <div class="image">
-<img src="photo.jpg"; width="425"; height="299">
+<img id="image" src="photo.jpg"; width="425"; height="299">
 </div>
 </body>
 </html> 

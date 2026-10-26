@@ -2,16 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Web Page</title>
+    <title>assignment2</title>
 
     <style> 
-    .header{ font-family:unset; color:rgb(rgb(255, 72, 0) rgb(60, 34, 152) rgb(67, 193, 21) / alpha)}
+    .header{ font-family:'Verdana'; color:rgba(0, 204, 255, 0.567))}
+    p{ color:orchid; font-family: 'Helvetica'; font-size: larger;}
+    button{ background-color: crimson; color:black}
+    .otherHeader{color:rgb(119, 255, 0); font-family: 'Haettenschweiler'; font-size: xx-small;}
+    #something{font-size: x-large;font-style: italic;font-style:oblique; color:salmon;}
+    .video{border-radius: 45%; border-color: limegreen;}
     </style>
 </head>
 <body>
 
-    <h1><div class="header"> this is a header for the totally real school website </div></h1>
+    <h1><div class="header"> this is a header for the totally real school website about our totally real school club that people are definietley a part of </div></h1>
     <p>this is some text for the totally real school website 👌</p>
+    <h2> <div class ="otherHeader"> About our club</div></h2>
+    <p> <div id="something">this is some text about some things about our club and its also weird looking becuase it has to be because i need to made an id and i dont have anywhere to put it so why not just put it on this random paragraph about things about things about our fake club</div></p>
+    <br>
+    <h2><div class="otherHeader">Upcoming activities</div></h2>
+    <p> *insert things about the upcoming activities here*</p>
+    
+    <button onclick="somethingFun()" style="padding: 32px; margin: 25 px background: #0284c7; color: white; border: none; border-radius: 4px; cursor: pointer;"> This is a button that does something special and you should click on it</button>
+    <script>
+  function somethingFun() {
+    alert("If you click OK, you like dipping pickles in hot sauce and the Fun-Dip powder at the same time. You weirdo, why would you ever even do that? ");
+  }
+</script>
+<iframe> <div class="video">
 
+    <allowfullscreen>src="https://www.youtube.com/watch?v=Ls1qFLUq_9w"</allowfullscreen>
+    </div>
+</iframe>
 </body>
 </html> 
